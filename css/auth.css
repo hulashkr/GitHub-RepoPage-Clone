@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-style: var(--font2);
+
+    color: rgb(255, 255, 255);
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    /* color: #222831; */
+}
+
+#loginSection,
+#signupSection {
+    width: 30%;
+    padding: 20px;
+    background-color: #31363F;
+    border-radius: 10px;
+    border: 1px solid #929292;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    /* Set text color to white */
+    background-color: #333;
+    /* Set background color to dark */
+    border: 1px solid #ccc;
+    /* Optional: Add border */
+    border-radius: 5px;
+    /* Optional: Add border radius */
+    padding: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #03C988;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #029363;
+}
+
+p {
+    margin-top: 20px;
+}
+
+#showSignupBtn,
+#showLoginBtn {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+#showSignupBtn:hover,
+#showLoginBtn:hover {
+    text-decoration: underline;
+}

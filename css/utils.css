@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+:root {
+    --main-bg-color: rgb(254, 255, 255);
+    --font1: 'Josefin Sans', sans-serif;
+    --font2: 'Kdam Thmor Pro', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 50vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-1 {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.logoutbtn {
+    padding: 5px 8px;
+    border: 1.6px solid black;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: var(--font1);
+    cursor: pointer;
+    color: rgb(1, 55, 1);
+    transition: all 0.3s ease-in-out;
+    margin: 5px;
+}
+
+.logoutbtn:hover {
+    background-color: rgb(30, 242, 171);
+}
+
+.form-input {
+    padding: 5px 9px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1.5px solid black;
+    margin: 0 12px;
+    font-family: var(--font1);
+}
+
+.form-box input,
+textarea {
+    width: 52vw;
+    padding: 6px 6px;
+    margin: 5px;
+}
